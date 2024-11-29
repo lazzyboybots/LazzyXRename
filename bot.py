@@ -13,15 +13,15 @@ START_PIC = ""
 
 LazzyXRename = Client(
     name="LazzyXRename", 
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN,
-    admin=ADMIN, 
-    database_uri=DATABASE_URI, 
-    database_name=DATABASE_NAME, 
-    force_sub=FORCE_SUB, 
-    log_channel=LOG_CHANNEL, 
-    start_pic=START_PIC
+    api_id=Config.API_ID,
+    api_hash=Config.API_HASH,
+    bot_token=Config.BOT_TOKEN,
+    admin=Config.ADMIN, 
+    database_uri=Config.DATABASE_URI, 
+    database_name=Config.DATABASE_NAME, 
+    force_sub=Config.FORCE_SUB, 
+    log_channel=Config.LOG_CHANNEL, 
+    start_pic=Config.START_PIC
 ) 
 
 print("Bot Was Started ⚡") 
