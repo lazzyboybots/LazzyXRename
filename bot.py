@@ -25,6 +25,16 @@ LazzyXRename = Client(
 ) 
 
 
+@LazzyXRename.on_message(filters.command("start") 
+async def start_cmd(client, message):
+    print("START command") 
+
+
+@LazzyXRename.on_message(filters.command("help") 
+async def help_cmd(client_message):
+    print("HELP command") 
+    
+
 print("Bot Was Started ⚡") 
 
 LazzyXRename.run() 
