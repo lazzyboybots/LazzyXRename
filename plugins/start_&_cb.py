@@ -66,7 +66,7 @@ async def cb_handler(client, query: CallbackQuery):
         )
     elif data == "admins":
         await query.message.edit_text(
-            text=Txt.ABMINS_TXT,
+            text=Txt.ADMINS_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
