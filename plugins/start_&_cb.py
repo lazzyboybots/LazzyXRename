@@ -16,7 +16,7 @@ async def start(client, message):
         ],[
         InlineKeyboardButton('❤️‍🔥Support Group❤️‍🔥', url='https://t.me/Lazzy_Bots_Support/') 
         ],[
-        InlineKeyBoardButton("Admins🧐", callback_data='admins') 
+        InlineKeyboardButton("Admins🧐", callback_data='admins') 
      ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
