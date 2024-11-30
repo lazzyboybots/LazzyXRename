@@ -3,3 +3,6 @@
 ❤‍🔥 This is a PowerFull Telegram File Rename and thumbnail & caption Changer Bot with High Speed ⚡
  
 # 𝐃𝐞𝐩𝐥𝐨𝐲
+• Heroku
+• Koyeb 
+• Railway
