@@ -42,7 +42,7 @@ class Txt(object):
 ├◈ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/'>Pʏᴛʜᴏɴ 𝟹</a>
 ├◈ Dᴀᴛᴀ Bᴀꜱᴇ: <a href='https://cloud.mongodb.com/>Mᴏɴɢᴏ DB</a>
 ├◈ Bᴜɪʟᴅ Vᴇʀꜱɪᴏɴ: <a href='https://t.me/Lazzy_Bots_Official'>Rᴇɴᴀᴍᴇʀ V4.0.0</a> 
-╰───────────────⍟ """
+╰───────────────⍟ </b>"""
 
     HELP_TXT = """
 🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴɪʟᴇ</u></b>
@@ -63,12 +63,12 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
-    ADMINS_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
-Hɪ I'M <a href=https://t.me/FilexRename_Bot>FileXRename</a> ✨, 
+    ADMINS_TXT = """<b><u>Hɪ I'M <a href=https://t.me/FilexRename_Bot>FileXRename</a> ✨</b></u>
 
-ᴠɪsɪᴛ ᴍʏ ɢɪᴛʜᴜʙ : <a href=https://github.com/lazzyboybots/>Lazzy Boy</a>
-ᴍʏ Cʜᴀɴɴᴇʟ ғᴏʀ ʏᴏᴜ : <a href=https://t.me/Lazzy_Bots_Official/>Lazzy Boys Official</a>
-ᴍʏ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ғᴏʀ ʏᴏᴜ : <a href=https://t.me/Lazzy_Bots_Support/>Support Group</a> """
+ᴛᴀʟᴋ ᴡɪᴛʜ ᴍᴇ : <a href='https://t.me/Satorux_Gojo'>Cʟɪᴄᴋ Hᴇʀᴇ</a>
+ᴠɪsɪᴛ ᴍʏ ɢɪᴛʜᴜʙ : <a href='https://github.com/lazzyboybots'>Lazzy Boy Gɪᴛʜᴜʙ</a>
+ᴍʏ Cʜᴀɴɴᴇʟ ғᴏʀ ʏᴏᴜ : <a href='https://t.me/Lazzy_Bots_Official'>Updates Channel</a>
+ᴍʏ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ғᴏʀ ʏᴏᴜ : <a href='https://t.me/Lazzy_Bots_Support'>𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥</a> """
 
     PROGRESS_BAR = """<b>\n
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
