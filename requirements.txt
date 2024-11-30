@@ -1,5 +1,5 @@
 pyrogram
-ThCrypto
+TgCrypto
 pyropatch
 motor
 pymongo
