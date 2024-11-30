@@ -30,7 +30,7 @@ class Bot(Client):
             await app.setup()
             await web.TCPSite(app, "0.0.0.0", 8080).start()
             
-        print("@{me.username} Sᴛᴀʀᴛᴇᴅ......⚡️⚡️⚡️")
+        print("Bot Was Started......⚡️⚡️⚡️")
         try: [await self.send_message(id, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**") for id in Config.ADMIN]                              
         except: pass
         if Config.LOG_CHANNEL:
