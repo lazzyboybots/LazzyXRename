@@ -37,7 +37,7 @@ async def cb_handler(client, query: CallbackQuery):
                 ],[
                 InlineKeyboardButton('❤️‍🔥 Support Group ❤️‍🔥', url='https://t.me/Lazzy_Bots_Support/') 
                 ],[
-                InlineKeyBoardButton("Admins 🧐", callback_data='admins') 
+                InlineKeyboardButton("Admins 🧐", callback_data='admins') 
              ]])
         ) 
     elif data == "help":
