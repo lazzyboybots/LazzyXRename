@@ -15,7 +15,7 @@ async def start(client, message):
         ],[
         InlineKeyboardButton('❤️‍🔥Support Group❤️‍🔥', url='https://t.me/Lazzy_Bots_Support/') 
         ],[
-        InlineKeyBoardButton("Admins🧐", callback_data='asdmins') 
+        InlineKeyBoardButton("Admins🧐", callback_data='admins') 
      ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -29,17 +29,17 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[ 
-                InlineKeyboardButton('⚡Updates Channel⚡', url='https://t.me/Lazzy_Bots_Official/')
+                InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://t.me/Lazzy_Bots_Official/')
                 ],[
-                InlineKeyboardButton("About😎", callback_data='about'), 
-                InlineKeyboardButton("⚙️Help", callback_data='help')
+                InlineKeyboardButton("About 😎", callback_data='about'), 
+                InlineKeyboardButton("⚙️ Help", callback_data='help')
                 ],[
-                InlineKeyboardButton('❤️‍🔥Support Group❤️‍🔥', url='https://t.me/Lazzy_Bots_Support/') 
+                InlineKeyboardButton('❤️‍🔥 Support Group ❤️‍🔥', url='https://t.me/Lazzy_Bots_Support/') 
                 ],[
-                InlineKeyBoardButton("Admins🧐", callback_data='asdmins') 
+                InlineKeyBoardButton("Admins 🧐", callback_data='asdmins') 
              ]])
         ) 
-    elif data == "help"
+    elif data == "help":
         await query.message.edit_text(
             text=Txt.HELP_TXT.format, 
             disable_web_page_preview = True,
@@ -51,4 +51,35 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("⛔ Bᴀᴄᴋ", callback_data = "start")
             ]]) 
         )    
-    elif data == "about"
+    elif data == "about":
+        await query.message.edit_text(
+            text=Txt.ABOUT_TXT.format(client.mention),
+            disable_web_page_preview = True,
+            reply_markup=InlineKeyboardMarkup([[
+                #⚠️ don't change source code & source link ⚠️ #
+                InlineKeyboardButton("❣️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/Minato_Assist_Bot/")
+                ],[
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("⛔ Bᴀᴄᴋ", callback_data = "start")
+            ]])            
+        )
+    elif data == "admins":
+        await query.message.edit_text(
+            text=Txt.ABMINS_TXT,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup([[
+                #⚠️ don't change source code & source link ⚠️ #
+                InlineKeyboardButton("❣️ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://t.me/Minato_Assist_Bot/")
+                ],[
+                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("⛔ Bᴀᴄᴋ", callback_data = "start")
+            ]])          
+        ) 
+    elif data == "close":
+        try:
+            await query.message.delete()
+            await query.message.reply_to_message.delete()
+            await query.message.continue_propagation()
+        except:
+            await query.message.delete()
+            await query.message.continue_propagation()
